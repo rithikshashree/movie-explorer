@@ -1,0 +1,12 @@
+.home{
+    width:90%;
+    margin:auto;
+    padding:20px;
+}
+
+.movie-list{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+    gap:25px;
+    margin-top:30px;
+}
